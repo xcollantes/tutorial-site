@@ -78,17 +78,17 @@
 			<source src="assets-tutor/meet.mp4" type="video/mp4">
 		</video>
 		
+
 		
 		
-		
-		
-		
-		
-		
-		
-		<h1 class="big-letter theX"><span class="inner-letter">X</span></h1>
-		<h1 class="big-letter theV"><span class="inner-letter">V</span></h1>
+		<text class="big-letter theX">X</text>
+		<text class="big-letter theV">V</text>
 		<!--h1 class="big-letter theR">R</h1-->
+		
+		
+		
+		
+		
 		<div class="container" id="header-container">
 			<h1 class="header-item header-title"><span>Xavier Collantes</span></h1>
 			<h1 class="header-item">Description</h1>
