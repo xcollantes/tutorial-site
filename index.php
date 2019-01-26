@@ -2,7 +2,7 @@
 <!-- 
 	Xavier Collantes,
 	01/11/2019,
-	tutor.php
+	tutor/index.php
 -->
 
 <html lang='en'>
@@ -77,6 +77,15 @@
 		<video autoplay muted loop>
 			<source src="assets-tutor/meet.mp4" type="video/mp4">
 		</video>
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		<h1 class="big-letter theX"><span class="inner-letter">X</span></h1>
 		<h1 class="big-letter theV"><span class="inner-letter">V</span></h1>
 		<!--h1 class="big-letter theR">R</h1-->
@@ -104,6 +113,22 @@
 		
 		</div>
 	</section>
+	
+	
+	
+	
+	
+	
+	
+  
+</div>
+	
+	
+	
+	
+	
+	
+	
 	
 </body>
 
