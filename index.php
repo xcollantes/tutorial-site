@@ -37,15 +37,17 @@
 	<link rel="shortcut icon" href="../assets/image/favicon.jpg">
 	
 	<!-- Include Google Font -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900">
-
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:700">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trocchi">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:700">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Franklin:300">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Passion+One:700|Playfair+Display" rel="stylesheet">
 
 	<!-- Include Google Material Icons -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -58,7 +60,6 @@
 
 
 	<link rel="stylesheet" href="tutor.css">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	
 </head>
 
@@ -81,7 +82,8 @@
 		</video>
 		<div class="container" id="header-container">
 			<div class="header-area">
-				<h1 class="header-title"><span>Xavier Collantes</span></h1>
+				<h1 class="header-title">Python for Business People</h1>
+				<h1 class="header-signature">Xavier Collantes</h1>
 			</div> <!--/header-area in grid title-->
 		
 			<svg class="knockout-text-container">
@@ -92,14 +94,6 @@
 					<text class="big-letter" x="12%" y="85%" font-size="60vh">V</text>
 				</mask>
 			</svg> <!--/letter-area in grid title-->
-
-		
-		
-		
-		
-		
-		
-		
 		
 			<div class="panel-item panel-uno">
 				<h2>thing 1</h2>
@@ -123,7 +117,8 @@
 	
 	<section id="mission">
 		<div class="container">
-			<div class=""><block>Provide an engaging learning experience.</div>
+			<h1>My Mission</h1>
+			<blockquote class="quote">"Provide a fun and transformative learning experience."</blockquote>
 		</div>
 	</section>
 	
