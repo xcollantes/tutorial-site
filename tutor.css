@@ -6,17 +6,17 @@
 ***************************************/
 
 h1, h2, h3, p, span{
-	padding: 40px;
+	padding: 50px;
 }
+
 body{
 	position: relative;
-	overflow: hidden;
 }
 
 video{
 	position: absolute;
-	min-width: 100%;
-	min-height: 100%;
+	width: 100vw;
+	height: 100vh
 	z-index: -9999;
 }
 
@@ -44,13 +44,10 @@ video{
 	justify-items: stretch; /* on the x-axis */
 	align-items: stretch; /* on the y-axis */
 	height: 100vh;
-	outline: 100px blue dashed;
 }
 
 .header-area{
 	grid-area: header-area;
-	
-	outline: 2px black solid;
 }
 
 .header-title{
@@ -69,7 +66,6 @@ mask{
 
 .knockout-text-container{
 	grid-area: letter-area;
-	outline: 2px black solid;
 	height: 100%;
 	width: 100%;
 	overflow: visible;
@@ -93,9 +89,12 @@ mask{
 .panel-tres{
 	grid-area: panel3;
 }
+
+.panel-quatro{
+	grid-area: panel4;
+}
 .panel-item{
 	background-color: #fff;
-	outline: 5px black solid;
 }
 
 /***************************************

@@ -1,45 +1,47 @@
+<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
 
 <style>
+*{
+	margin: 0;
+	padding: 0;
+}
 
-
+body{
+	overflow: hidden;
+	background: #000;
+}
 
 .vid{
-	width: 100%;
-	height: 100%;
+	top: -15%;
+	left: -10%;
+	
+	height: 140vh;
 	position: absolute;
 	z-index: -9999;
+	overflow: hidden;
+	scale(20%);
 }
 
 .letter{
-	font-size: 300px;
+	font-size: 30vh;
 	position: absolute;
 	z-index: 1;
-	
 }
 
 </style>
 
-
 <body>
 
 	<video autoplay muted loop class="vid">
-			<source src="assets-tutor/meet.mp4" type="video/mp4">
-		</video>
-	
+		<source src="assets-tutor/colors.mp4" type="video/mp4">
+	</video>
 	
 	<svg class="knockout-text-container" width="100%" height="100%">
-
-		
-	
-		<rect class="knockout-text-bg" width="100%" height="100%" fill="#ff2b42" x="0" y="0" fill-opacity="1" mask="url(#knockout-text)" />
-
+		<rect class="knockout-text-bg" width="96%" height="96%" text-anchor="middle" adjustment-baseline="central" fill="#000" x="2%" y="2%" fill-opacity="1" mask="url(#knockout-text)" />
 		<mask id="knockout-text">
 			<rect width="100%" height="100%" fill="#fff" x="0" y="0" />
-			<text class="letter" x="50%" y="50%">X</text>
+			<text class="letter" x="50%" y="50%" text-anchor="middle">X</text>
 		</mask>
-
 	</svg>
-
-	
 
 </body>

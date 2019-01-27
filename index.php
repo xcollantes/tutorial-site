@@ -62,9 +62,7 @@
 	
 </head>
 
-<body data-spy="scroll">
-
-	<!-- Sidenav -->
+<!-- Sidenav -->
 	<div class="sidenav">
 		<a href="#">Home</a>
 		<a href="#">About</a>
@@ -72,6 +70,10 @@
 		<a href="#">Lessons</a>
 	</div>
 	<!-- /Sidenav -->
+	
+<body data-spy="scroll">
+
+	
 	
 	<section id="header">
 		<video autoplay muted loop>
@@ -87,7 +89,7 @@
 				<mask id="knockout-text">
 					<rect width="100%" height="100%" fill="#fff" x="0" y="0" />				
 					<text class="big-letter" x="10%" y="104%" font-size="115vh">X</text>
-					<text class="big-letter" x="10%" y="85%" font-size="60vh">V</text>
+					<text class="big-letter" x="12%" y="85%" font-size="60vh">V</text>
 				</mask>
 			</svg> <!--/letter-area in grid title-->
 
@@ -110,24 +112,20 @@
 			<div class="panel-item panel-tres">
 				<h2>thing 3</h2>
 			</div>
+			
+			<div class="panel-item panel-quatro">
+				<h2>thing 4</h2>
+			</div>
 		
 		
 		</div>
 	</section>
 	
-	
-	
-	
-	
-	
-	
-  
-</div>
-	
-	
-	
-	
-	
+	<section id="mission">
+		<div class="container">
+			<blockquote>Provide an engaging learning experience.</blockquote>
+		</div>
+	</section>
 	
 	
 	
