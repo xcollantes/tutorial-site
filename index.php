@@ -77,36 +77,37 @@
 		<video autoplay muted loop>
 			<source src="assets-tutor/meet.mp4" type="video/mp4">
 		</video>
+		<div class="container" id="header-container">
+			<div class="header-area">
+				<h1 class="header-title"><span>Xavier Collantes</span></h1>
+			</div> <!--/header-area in grid title-->
 		
+			<svg class="knockout-text-container">
+				<rect class="knockout-text-bg" width="100%" height="100%" fill="#ff2b42" x="0" y="0" fill-opacity="1" mask="url(#knockout-text)" />
+				<mask id="knockout-text">
+					<rect width="100%" height="100%" fill="#fff" x="0" y="0" />				
+					<text class="big-letter" x="10%" y="104%" font-size="115vh">X</text>
+					<text class="big-letter" x="10%" y="85%" font-size="60vh">V</text>
+				</mask>
+			</svg> <!--/letter-area in grid title-->
 
 		
 		
-		<text class="big-letter theX">X</text>
-		<text class="big-letter theV">V</text>
-		<!--h1 class="big-letter theR">R</h1-->
 		
 		
 		
 		
 		
-		<div class="container" id="header-container">
-			<h1 class="header-item header-title"><span>Xavier Collantes</span></h1>
-			<h1 class="header-item">Description</h1>
-			
-		</div>
 		
-		
-		
-		<div class="container" id="panel-container">
-			<div class="panel-item">
+			<div class="panel-item panel-uno">
 				<h2>thing 1</h2>
 			</div>
 			
-			<div class="panel-item">
+			<div class="panel-item panel-dos">
 				<h2>thing 2</h2>
 			</div>
 			
-			<div class="panel-item">
+			<div class="panel-item panel-tres">
 				<h2>thing 3</h2>
 			</div>
 		

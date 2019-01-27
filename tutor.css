@@ -17,19 +17,16 @@ video{
 	position: absolute;
 	min-width: 100%;
 	min-height: 100%;
-	z-index: -9999999;
+	z-index: -9999;
 }
 
 .container{
 	display: grid;
 	position: relative;
-	
 	width: 82vw;
-	
 	justify-content: stretch;
 	margin-top: 0;
 	margin-right: 0;
-	
 	align-items: stretch;
 	padding: 0;
 }
@@ -38,14 +35,22 @@ video{
 	Header (Above the fold)
 ***************************************/
 #header-container{
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	height: 75vh;
-	outline: 5px dotted blue;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 40% 40% 20%;
+	grid-template-areas: 
+		"header-area header-area letter-area letter-area"
+		"header-area header-area letter-area letter-area"
+		"panel1 panel2 panel3 panel4";
+	justify-items: stretch; /* on the x-axis */
+	align-items: stretch; /* on the y-axis */
+	height: 100vh;
+	outline: 100px blue dashed;
 }
 
-.header-item{
-	outline: 10px dashed blue;
+.header-area{
+	grid-area: header-area;
+	
+	outline: 2px black solid;
 }
 
 .header-title{
@@ -56,49 +61,41 @@ video{
 	color: #fff;
     padding: 20px;
 	background-color: #ff2b42; /*(#ff2b42)*/
-	z-index: -99;
-	width: 100%;
-	margin-top: 0;
-	grid-area: 1 / 1 / 3 / grid-col-end;
-	
+	height: 100%;
 }
 
+mask{
+}
+
+.knockout-text-container{
+	grid-area: letter-area;
+	outline: 2px black solid;
+	height: 100%;
+	width: 100%;
+	overflow: visible;
+}
 
 .big-letter{
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 1;
+	z-index: -99;
 	font-family: 'Merriweather', serif;
-	font-size: 150vh;
-    font-weight: 1000;
-	
-	outline: 5px black dotted;
+	/*font-size: 1100px;  /*150vh*/
+    font-weight: 900;
 }
 
-.theX{
-	margin-top: -17%;
-	margin-right: -20%;
-
+.panel-uno{
+	grid-area: panel1;
 }
 
-.inner-letter{
-	background: #ff2b42;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
+.panel-dos{
+	grid-area: panel2;
 }
 
-.theV{
-	font-size: 80vh;
-	margin-top: 2%;
-	margin-right: 10%;
-	transform: scaleY(-1);
-	-webkit-transform: scaleY(-1);
+.panel-tres{
+	grid-area: panel3;
 }
-
-.theR{
-	margin-top: -17%;
-	margin-right: -20%;
+.panel-item{
+	background-color: #fff;
+	outline: 5px black solid;
 }
 
 /***************************************
@@ -130,49 +127,3 @@ video{
 .sidenav a:hover {
 	color: #f1f1f1;
 }
-/***************************************
-	Stuff-panel
-***************************************/
-#panel-container{
-	grid-template-columns: 1fr 1fr 1fr;
-	justify-content: space-evenly;
-	height: 300px;
-	outline: 5px dotted green;
-	
-}
-
-.panel-item{
-	outline: 5px dashed orange;
-}
-
-
-/*******************************
-KNOCKOUT TEXT*/
-
-.knockout {
-  /* Ensure the bottom layer is full screen */
-  height: 100vh;
-  width: 100%;
-  /* Add a colorful texture and cutom font-styling */
-  background-image: linear-gradient(to left, #ff4e50 , #f9d423);
-  text-transform: uppercase;
-}
-
-/* Knockout text font sizing for each line */
-
-text:nth-child(2) {
-  font-size: 5em;
-}
-
-text:nth-child(3) {
-  font-size: 5.1em;
-}
-
-text:nth-child(4) {
-  font-size: 15em;
-}
-
-
-
-
-
