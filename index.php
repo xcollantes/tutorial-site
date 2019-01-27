@@ -19,7 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Include Bootstrap And Font Awesome -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">        
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">        
 	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -31,10 +31,10 @@
 	
 	
 	<!-- Include Simple Light Box -->
-	<link rel="stylesheet" href="assets/css/simplelightbox/simplelightbox.css">
+	<link rel="stylesheet" href="../assets/css/simplelightbox/simplelightbox.css">
 	
 	<!-- Include Favicon -->
-	<link rel="shortcut icon" href="assets/image/favicon.jpg">
+	<link rel="shortcut icon" href="../assets/image/favicon.jpg">
 	
 	<!-- Include Google Font -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900">
@@ -123,7 +123,7 @@
 	
 	<section id="mission">
 		<div class="container">
-			<blockquote>Provide an engaging learning experience.</blockquote>
+			<div class=""><block>Provide an engaging learning experience.</div>
 		</div>
 	</section>
 	
