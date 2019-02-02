@@ -39,14 +39,9 @@
 	<!-- Include Google Font -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trocchi">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:700">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
-
-	
-	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Passion+One:700|Playfair+Display" rel="stylesheet">
 
 	<!-- Include Google Material Icons -->
@@ -118,13 +113,46 @@
 	<section id="mission">
 		<div class="container">
 			<h1>My Mission</h1>
-			<blockquote class="quote">"Provide a fun and transformative learning experience."</blockquote>
+			<blockquote class="blockquote quote">"Provide a fun and transformative learning experience."</blockquote>
 		</div>
 	</section>
 	
 	
+	<section id="prof">
+		<div class="container" id="prof-container">
+			<img class="" id="prof-img" src="assets-tutor/img/kennel.jpg">
+			<div id="prof-description">
+				<p>Xavier is a Bilingual Engineer at 
+				<a id="google" href="https://google.com">
+				<span id="g_bloo">_G</span>
+				<span id="g_rojo">o</span>
+				<span id="g_hielo">o</span>
+				<span id="g_bloo_g">g</span>
+				<span id="g_green">l</span>
+				<span id="g_rojo_two">e</span>
+				</a>.  
+				As the subject matter expert for Tagalog (Filipino) 
+				for Google Assistant and Google Search, Xavier is responsible for launching locale specific 
+				projects in improving usability in <a class="dynamo" href="https://developers.google.com/search/docs/data-types/media">
+				Assistant and Search</a>.  
+				</p>
+				
+				<p>In 2017, Xavier graduated from Gonzaga University with a degree in 
+				Business Administration, Information Systems Concentration, and Computer Science Minor.  
+				As the personification of the crossroads business and technology, Xavier's first
+				programming language was Python.  From there he moved on to Java, C++, C#, SQL, amoung others.  
+				</p>
+			</div>
+			<div class="" id="prof-social">SOC</div>
+		</div>
+	</section>
 	
 </body>
 
+<script>
+	$('#google').hover(
+		function(){ $(this).addClass('') }
+	);
+</script>
 
 </html>

@@ -5,13 +5,44 @@
 	White: #fff;
 ***************************************/
 
-h1, h2, h3, p, span{
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 	padding: 7vw;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding: 20px;
+	font-size: 14px;
+}
+
+a.dynamo{
+	color: #ff2b42;
+	background-image: linear-gradient(to right, #fff 50%, #ff2b42 50%);
+	text-decoration: none;
+	background-position: 0 0;
+    background-size: 200% auto;
+	transition: background-position 0.2s ease-out;
+	-webkit-transition: background-position 0.2s ease-out;
+}
+
+a:hover.dynamo{
+	color: #fff;
+	background-color: #ff2b42;
+	background-position: -100% 0%;
+	border-radius: 1.40px;
+	text-decoration: none;
 }
 
 body{
 	position: relative;
 	overflow-x: hidden;
+}
+
+section{
+	margin-bottom: 7vh;
 }
 
 video{
@@ -51,15 +82,15 @@ video{
 .header-area{
 	grid-area: header-area;
 	background-color: #ff2b42;
-	
 	height: 100%;
 }
 
 .header-title{
-	font-family: 'Passion One', cursive;
+	/*font-family: 'Passion One', cursive;*/
 	/*font-family: 'Playfair Display', serif;*/
-	/*font-family: 'Alfa Slab One', cursive;*/
-	font-size: 100px;
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 400;
+	font-size: 95px;
 	color: #fff;
 }
 
@@ -119,8 +150,9 @@ video{
 	padding-top: 40vh;
 	overflow: hidden;
 	z-index: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 }
-
 /* The navigation menu links */
 .sidenav a {
 	padding: 8px 8px 8px 32px;
@@ -145,5 +177,77 @@ video{
 	color: #000;
 	font-family: 'Permanent Marker', cursive;
 }
+/***************************************
+	About Me / Prof Section
+***************************************/
+#prof-container{
+	grid-template-areas: 
+		"image description"
+		"image description"
+		"image soc-media";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 0;
+	justify-items: center;
+}
 
+.prof-img{
 	
+}
+
+#prof-img{
+	grid-area: image;
+	border-radius: 50%;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	width: 40%;
+}
+
+#prof-description{
+	grid-area: description;
+	outline: 3px black solid;
+
+}
+
+#prof-social{
+	grid-area: soc-media;
+	outline: 3px black solid;
+
+}
+
+/***************************************
+	Google.com easter egg
+***************************************/
+#google > span{
+	font-weight: 700;
+	margin-left: -3px;
+}
+
+#g_bloo{
+	color: #4285f4;
+	margin: 0px;
+}
+
+#g_rojo{
+	color: #ea4335;
+	
+}
+
+#g_hielo{
+	color: #fbbc03;
+	
+}
+
+#g_bloo_g{
+	color: #4283f4;
+	
+}
+
+#g_green{
+	color: #34a833;
+	
+}
+
+#g_rojo_two{
+	color: #ea4335;
+	margin-right: -3px;
+}
