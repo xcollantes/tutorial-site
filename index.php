@@ -137,10 +137,10 @@
 				From there he moved on to Java, C++, C#, SQL, PHP, all things Linux, Italy, Belgium, and many others.  
 				</p>
 			</div>
-			<div class="container" id="prof-social">
-				<div class="bio-icon resume-bio"><i class="material-icons">content_copy</i></div>			
-				<div class="bio-icon linkedin-bio"><i class="fa fa-linkedin-square"></i></div>			
-				<div class="bio-icon portfolio-bio"><i class="fa fa-linkedin-square"></i></div>
+			<div class="" id="prof-social">
+				<a href="#"><i class="material-icons bio-icon resume-bio">content_copy</i></a>		
+				<a href="https://linkedin.com/in/xaviercollantes"><i class="fa fa-linkedin-square bio-icon linkedin-bio"></i></a>
+				<a href="https://xaviercollantes.me"><i class="material-icons bio-icon portfolio-bio">folder_shared</i></a>
 			</div>
 		</div>
 	</section>

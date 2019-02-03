@@ -180,6 +180,10 @@ video{
 /***************************************
 	About Me / Prof Section
 ***************************************/
+#prof:active{
+	transition: opacity 0.5s ease-in;
+}
+
 #prof-container{
 	grid-template-areas: 
 		"image description"
@@ -201,42 +205,38 @@ video{
 	border-radius: 50%;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	width: 60%;
-	
-	outline: 2px red dashed;
 }
 
 #prof-description{
 	grid-area: description;
-	
-	outline: 2px red dashed;
 }
 
 #prof-social{
 	grid-area: soc-media;
-	display: grid;	
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100%;
-	grid-gap: 0px;
-	align-items: center;
-	justify-items: stretch;
-	outline: 2px red dashed;
+	text-align: center;
 }
 
 .bio-icon{
-	font-size: 30px;
+	font-size: 70px;
+	padding: 50px;
+	color: #333;
+	transition: transform 0.25s ease-in;
+	-webkit-transition: transform 0.25s ease-in;
+}
+
+.bio-icon:hover{
+	color: #ff2b42;
+	transform: translate(-4px, -4px);
+	-webkit-transform: translate(-4px, -4px);
 }
 
 .resume-bio{
-	outline: 2px yellow solid;
 }
 
 .linkedin-bio{
-	outline: 2px black solid;
 }
 
 .portfolio-bio{
-	outline: 2px red solid;
-
 }
 
 /***************************************
