@@ -11,7 +11,7 @@ h1, h2, h3{
 	padding: 7vw;
 }
 
-p{
+p, i{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	padding: 20px;
@@ -189,6 +189,7 @@ video{
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 0;
 	justify-items: center;
+	align-items: center;
 }
 
 .prof-img{
@@ -199,38 +200,41 @@ video{
 	grid-area: image;
 	border-radius: 50%;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-	width: 50%;
+	width: 60%;
+	
+	outline: 2px red dashed;
 }
 
 #prof-description{
 	grid-area: description;
+	
+	outline: 2px red dashed;
 }
 
 #prof-social{
 	grid-area: soc-media;
-	display: grid;
-	grid-template-areas: 
-	"resume linkedin portfolio-area";
-	
+	display: grid;	
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr;
+	grid-template-rows: 100%;
 	grid-gap: 0px;
+	align-items: center;
+	justify-items: stretch;
+	outline: 2px red dashed;
+}
+
+.bio-icon{
+	font-size: 30px;
 }
 
 .resume-bio{
-	grid-area: resume;
-	outline: 2px black solid;
+	outline: 2px yellow solid;
 }
 
 .linkedin-bio{
-	grid-area: linkedin;
 	outline: 2px black solid;
-
-	
 }
 
 .portfolio-bio{
-	grid-area: portfolio-area;
 	outline: 2px red solid;
 
 }

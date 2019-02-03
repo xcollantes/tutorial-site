@@ -125,13 +125,6 @@
 			<div id="prof-description">
 				<p>Xavier is a Bilingual Engineer at 
 				<a class="dynamo" href="https://google.com">Google</a>.
-				<!--span id="first" class="">G</span>
-				<span id="second" class="">o</span>
-				<span id="third">o</span>
-				<span id="fourth">g</span>
-				<span id="fifth">l</span>
-				<span id="sixth">e</span-->
-				  
 				As the subject matter expert for Tagalog (Filipino) 
 				for Google Assistant and Google Search, Xavier is responsible for launching locale specific 
 				projects in improving usability in <a class="dynamo" href="https://developers.google.com/search/docs/data-types/media">
@@ -145,24 +138,13 @@
 				</p>
 			</div>
 			<div class="container" id="prof-social">
-				<div class="resume-bio"><i class="material-icons">content_copy</i></div>			
-				<div class="linkedin-bio"><i class="fa fa-linkedin-square"></i></div>			
-				<div class="portfolio-bio">DRIVE</div>						
+				<div class="bio-icon resume-bio"><i class="material-icons">content_copy</i></div>			
+				<div class="bio-icon linkedin-bio"><i class="fa fa-linkedin-square"></i></div>			
+				<div class="bio-icon portfolio-bio"><i class="fa fa-linkedin-square"></i></div>
 			</div>
 		</div>
 	</section>
 	
 </body>
-
-<script>
-	$('#google').hover(
-		function(){ $('#first').addClass('g_bloo');	}
-		function(){ $('#second').addClass('g_rojo'); }
-		function(){ $('#third').addClass('g_hielo'); }
-		function(){ $('#fourth').addClass('g_bloo_g'); }
-		function(){ $('#fifth').addClass('g_green'); }
-		function(){ $('#sixth').addClass('g_rojo_two'); }
-		);
-</script>
 
 </html>
