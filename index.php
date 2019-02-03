@@ -20,7 +20,7 @@
 	
 	<!-- Include Bootstrap And Font Awesome -->
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">        
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -40,7 +40,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Passion+One:700|Playfair+Display" rel="stylesheet">
 
@@ -52,6 +52,7 @@
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 	<link rel="stylesheet" href="tutor.css">
@@ -123,27 +124,31 @@
 			<img class="" id="prof-img" src="assets-tutor/img/kennel.jpg">
 			<div id="prof-description">
 				<p>Xavier is a Bilingual Engineer at 
-				<a id="google" href="https://google.com">
-				<span id="g_bloo">_G</span>
-				<span id="g_rojo">o</span>
-				<span id="g_hielo">o</span>
-				<span id="g_bloo_g">g</span>
-				<span id="g_green">l</span>
-				<span id="g_rojo_two">e</span>
-				</a>.  
+				<a class="dynamo" href="https://google.com">Google</a>.
+				<!--span id="first" class="">G</span>
+				<span id="second" class="">o</span>
+				<span id="third">o</span>
+				<span id="fourth">g</span>
+				<span id="fifth">l</span>
+				<span id="sixth">e</span-->
+				  
 				As the subject matter expert for Tagalog (Filipino) 
 				for Google Assistant and Google Search, Xavier is responsible for launching locale specific 
 				projects in improving usability in <a class="dynamo" href="https://developers.google.com/search/docs/data-types/media">
 				Assistant and Search</a>.  
 				</p>
 				
-				<p>In 2017, Xavier graduated from Gonzaga University with a degree in 
+				<p>In 2017, Xavier graduated from Gonzaga University in 
 				Business Administration, Information Systems Concentration, and Computer Science Minor.  
-				As the personification of the crossroads business and technology, Xavier's first
-				programming language was Python.  From there he moved on to Java, C++, C#, SQL, amoung others.  
+				Xavier's first programming language was Python in 2012.  
+				From there he moved on to Java, C++, C#, SQL, PHP, all things Linux, Italy, Belgium, and many others.  
 				</p>
 			</div>
-			<div class="" id="prof-social">SOC</div>
+			<div class="container" id="prof-social">
+				<div class="resume-bio"><i class="material-icons">content_copy</i></div>			
+				<div class="linkedin-bio"><i class="fa fa-linkedin-square"></i></div>			
+				<div class="portfolio-bio">DRIVE</div>						
+			</div>
 		</div>
 	</section>
 	
@@ -151,8 +156,13 @@
 
 <script>
 	$('#google').hover(
-		function(){ $(this).addClass('') }
-	);
+		function(){ $('#first').addClass('g_bloo');	}
+		function(){ $('#second').addClass('g_rojo'); }
+		function(){ $('#third').addClass('g_hielo'); }
+		function(){ $('#fourth').addClass('g_bloo_g'); }
+		function(){ $('#fifth').addClass('g_green'); }
+		function(){ $('#sixth').addClass('g_rojo_two'); }
+		);
 </script>
 
 </html>

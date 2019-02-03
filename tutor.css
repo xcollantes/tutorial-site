@@ -13,9 +13,9 @@ h1, h2, h3{
 
 p{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	padding: 20px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 a.dynamo{
@@ -199,18 +199,39 @@ video{
 	grid-area: image;
 	border-radius: 50%;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-	width: 40%;
+	width: 50%;
 }
 
 #prof-description{
 	grid-area: description;
-	outline: 3px black solid;
-
 }
 
 #prof-social{
 	grid-area: soc-media;
-	outline: 3px black solid;
+	display: grid;
+	grid-template-areas: 
+	"resume linkedin portfolio-area";
+	
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 0px;
+}
+
+.resume-bio{
+	grid-area: resume;
+	outline: 2px black solid;
+}
+
+.linkedin-bio{
+	grid-area: linkedin;
+	outline: 2px black solid;
+
+	
+}
+
+.portfolio-bio{
+	grid-area: portfolio-area;
+	outline: 2px red solid;
 
 }
 
@@ -222,32 +243,32 @@ video{
 	margin-left: -3px;
 }
 
-#g_bloo{
-	color: #4285f4;
-	margin: 0px;
+.g_bloo{
+	color: .4285f4;
+	margin-left: 6px;
 }
 
-#g_rojo{
-	color: #ea4335;
+.g_rojo{
+	color: .ea4335;
 	
 }
 
-#g_hielo{
-	color: #fbbc03;
+.g_hielo{
+	color: .fbbc03;
 	
 }
 
-#g_bloo_g{
-	color: #4283f4;
+.g_bloo_g{
+	color: .4283f4;
 	
 }
 
-#g_green{
-	color: #34a833;
+.g_green{
+	color: .34a833;
 	
 }
 
-#g_rojo_two{
-	color: #ea4335;
+.g_rojo_two{
+	color: .ea4335;
 	margin-right: -3px;
 }
